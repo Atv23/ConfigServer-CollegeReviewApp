@@ -5,7 +5,6 @@ spring:
 eureka:
   instance:
     prefer-ip-address: true
-    appname: config-server-test
   client:
     fetch-registry: true
     register-with-eureka: true
